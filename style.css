@@ -1,0 +1,213 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: #EEE792;
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+    color: #0DA4B5;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: red;
+}
+.item1, .item2, .item3{
+    text-align: center;
+    margin: 0 20px 0 20px;
+    width: 33%;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    background-color: #0DA4B5;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+}
+.blok1, .blok2, .blok3{
+    padding: 20px;
+    width: 33,3%;
+    display: inline;
+}
+img{
+    height: 150px;
+    width: 300px;
+}
+#opis1{
+    width: 33%;
+    text-wrap: pretty;
+}
+.opis1, .opis2{
+    width: 33%;
+}
+.chuj{
+    display: flex;
+    
+  justify-content: center;
+}
+
+
+
+/* =========================
+   KARTA GŁÓWNA
+   ========================= */
+.css-1u5tdqg {
+  background: #2b2f30;
+  border-radius: 8px;
+  padding: 14px 18px 16px 18px;
+  width: 640px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.45);
+  position: relative;
+
+  /* CENTROWANIE */
+  margin: 0 auto;
+}
+
+/* =========================
+   HEADER
+   ========================= */
+.css-84zodg {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.css-10vqlz {
+  font-size: 16px;
+  font-weight: 700;
+  color: #f5c84c;
+  letter-spacing: .6px;
+}
+
+.css-180htql {
+  font-size: 12px;
+  color: #6fa8dc;
+  margin-left: 6px;
+}
+
+/* =========================
+   BLOKI STATÓW
+   ========================= */
+.css-843xmj {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.css-tl0aly {
+  background: linear-gradient(#242829, #1f2324);
+  border-radius: 6px;
+  padding: 8px 10px;
+  min-width: 96px;
+  text-align: center;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.04);
+
+  /* RESET PRZESUWANIA */
+  position: static;
+}
+
+/* =========================
+   TEKST W BLOKACH
+   ========================= */
+.css-3nygxk {
+  font-size: 11px;
+  color: #9ea3a6;
+}
+
+.css-1eit0i2 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #f5c84c;
+}
+
+/* =========================
+   NO DATA
+   ========================= */
+.css-e81epp {
+  font-size: 13px;
+  color: #7a7f82;
+}
+
+/* =========================
+   BUY / SELL — BEZ WYPYCHANIA
+   ========================= */
+.css-tl0aly:nth-last-child(2),
+.css-tl0aly:last-child {
+  position: static;
+  right: 0;
+}
+
+/* =========================
+   DIVIDER
+   ========================= */
+.chakra-divider {
+  border-color: #3c4143;
+  margin: 14px 0 10px;
+}
+
+/* =========================
+   ARMOR TITLE
+   ========================= */
+.css-1uzvgyh {
+  font-size: 12px;
+  color: #a3a8aa;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+/* =========================
+   ARMOR CLASS
+   ========================= */
+.css-il27r8 {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.css-il27r8 .css-tl0aly {
+  background: transparent;
+  padding: 0;
+  min-width: auto;
+  box-shadow: none;
+}
+
+.css-lrjfw7 {
+  font-size: 11px;
+  color: #a3a8aa;
+  text-align: center;
+}
+
+/* =========================
+   ŻÓŁTE PASKI
+   ========================= */
+.css-bpqj2f {
+  background: #f5c84c;
+  color: #1b1e1f;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 4px 0;
+  width: 78px;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: inset 0 -1px 0 rgba(0,0,0,.35);
+}
+
+/* =========================
+   IKONA AMMO
+   ========================= */
+img {
+  width: 42px;
+  height: 42px;
+  border-radius: 4px;
+  background: #1f2324;
+  padding: 3px;
+  display: block;
+}
