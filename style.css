@@ -36,7 +36,7 @@ main{
     width: 33,3%;
     display: inline;
 }
-img{
+#zdj, #zdj1, #zdj2{
     height: 150px;
     width: 300px;
 }
@@ -211,4 +211,5 @@ img {
   padding: 3px;
   display: block;
 }
+
 
