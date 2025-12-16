@@ -47,7 +47,7 @@ img{
 .opis1, .opis2{
     width: 33%;
 }
-.chuj{
+.opis22{
     display: flex;
     
   justify-content: center;
@@ -211,3 +211,4 @@ img {
   padding: 3px;
   display: block;
 }
+
